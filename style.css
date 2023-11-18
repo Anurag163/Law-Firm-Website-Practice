@@ -106,12 +106,16 @@ textarea{
     font-weight: 600;
     color: #000;
     font-size: small;
+    transition-property: font-size;
+    transition-duration: .25s;
+    transition-timing-function: ease-in;
     
 
 }
 
 #navbar ul li a:hover{
     color: var(--txt-primary);
+    font-size: 14px;
 
 }
 
@@ -443,11 +447,11 @@ textarea{
 
 .back-top{
     background-image:linear-gradient(to bottom right,#11037988,#2c10ff88);
-   
     height: 80px;
-    
-    
-}
+   
+    }
+
+
 
 .back-top .text-container{
     text-align: center;
@@ -460,6 +464,16 @@ textarea{
     color: #fff;
     text-decoration: none;
     font-weight: 600;
+    transition-property: font-size;
+    transition-duration: .25s;
+    transition-timing-function: ease-in;
+}
+
+.back-top a:hover{
+    font-size: 18px;
+    color: #525252;
+   
+
 }
 
 
@@ -474,7 +488,7 @@ textarea{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 40px;
+    height: 50px;
     
 
 }
@@ -486,5 +500,15 @@ textarea{
 
 #footer .footer-flex .footer-flex-2 i{
     padding-right: .5rem;
+    transition-property: font-size;
+    transition-duration: .25s;
+    transition-timing-function: ease-in;
+    
+}
+
+#footer .footer-flex .footer-flex-2 i:hover{
+    font-size: 40px;
+    color: #525252;
+    cursor: pointer;
     
 }
