@@ -111,8 +111,6 @@ textarea{
     transition-property: font-size;
     transition-duration: .25s;
     transition-timing-function: ease-in;
-    
-
 }
 
 #navbar ul li a:hover{
@@ -128,6 +126,7 @@ textarea{
     height: 90vh;
     position: relative;
     background-attachment: fixed;
+
 
 }
 

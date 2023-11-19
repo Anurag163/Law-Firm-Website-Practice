@@ -9,20 +9,58 @@
 
     #navbar{
         background: #eeebeb;
-        height: 90px;
+        height:5vh;
+        padding-bottom: 10rem;
         position: fixed;
         width: 100%;
-        z-index: 10;
+
         box-shadow: 1px 1px 3px  #bda5a5;
+  
     
     
     }
     #navbar .logo{
         height: 90px;
+        width: 60px;
         padding-top: .5rem;
         padding-bottom: .5rem;
+        align-items: center;
+
     
     }
+
+    #navbar .flex-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar ul {
+        display: flex;
+        flex-direction: row;
+        padding-top: 0rem;
+        align-items: center;
+
+    
+    }
+
+    #navbar ul li {
+        list-style: none;
+        padding-top: .55rem;
+
+    }
+
+
+    #navbar ul li a{
+        font-size: 10px;
+    }
+
+    #navbar ul li a:hover{
+        color: var(--txt-primary);
+        font-size: 11px;
+    
+    }
+
 
     /*Header*/
 
@@ -31,6 +69,9 @@
         height: 70vh;
         position: relative;
         background-attachment: fixed;
+ 
+
+
 
     }
 
