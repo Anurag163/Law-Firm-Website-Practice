@@ -60,6 +60,8 @@ textarea{
 
 
 
+
+
 /*Navbar Styling*/
 
 #navbar{
@@ -294,6 +296,7 @@ textarea{
     display: flex;
     flex-direction: column;
     align-items: center;
+ 
     
 
 
@@ -392,7 +395,7 @@ textarea{
 }
 
 .btn{
-    padding-top: 2em;
+    padding-top: 2rem;
 }
 
 .btn input{
